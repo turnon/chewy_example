@@ -1,8 +1,9 @@
-source 'https://rubygems.org'
+#source 'https://rubygems.org'
+source 'https://gems.ruby-china.com'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails'
-gem 'sqlite3'
+gem 'rails', '~> 4.0'
+gem 'sqlite3', '~> 1.3.6'
 
 gem 'chewy'
 gem 'elasticsearch'
