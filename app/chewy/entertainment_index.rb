@@ -22,7 +22,7 @@ class EntertainmentIndex < Chewy::Index
     field :author, value: ->{ author.name }
     field :author_id, type: 'integer'
     field :description
-    field :tags, index: 'not_analyzed', value: ->{ tags.map(&:name) }
+    field :tags, type: 'keyword', value: ->{ tags.map(&:name) }
   end
 
   #{movie: Video.movies, cartoon: Video.cartoons}.each do |type_name, scope|
