@@ -17,6 +17,9 @@ gem 'sass-rails'
 gem 'uglifier'
 gem 'coffee-rails'
 
+gem 'parser'
+gem 'unparser'
+
 group :development, :test do
   gem 'rspec-rails'
   gem 'factory_girl'
