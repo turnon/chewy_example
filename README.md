@@ -1,5 +1,11 @@
 # README
 
+```
+docker run -it -v $(pwd):/app -v $(pwd)/tmp_dir:/tmp daocloud.io/shutdown/chewy_example:v0.0.3 /bin/bash
+```
+
+# OLD README
+
 This is an example application using the Chewy gem extension to Elasticsearch.
 Application updated to work with ElasticSearch 1.0.0 version and later.
 To try it:

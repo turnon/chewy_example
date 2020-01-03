@@ -1,6 +1,6 @@
 FROM ruby:2.5.1
 
-WORKDIR /gemfiles
+WORKDIR /app
 
 ADD Gemfile* ./
 
