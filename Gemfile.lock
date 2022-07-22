@@ -1,8 +1,8 @@
 GIT
-  remote: git://github.com/pyromaniac/active_data.git
-  revision: a5fed0cb5330908769274b100cf47be914cd6a53
+  remote: https://github.com/pyromaniac/active_data.git
+  revision: b79fbc01e419de4577203ebdf8c8748ae9a680e0
   specs:
-    active_data (1.1.6)
+    active_data (1.2.0)
       activemodel (>= 4.0)
       activesupport (>= 4.0)
       tzinfo
@@ -224,7 +224,7 @@ GEM
       tree_html (~> 0.1.7)
     tree_graph (0.2.2)
     tree_html (0.1.7)
-    tzinfo (1.2.6)
+    tzinfo (1.2.10)
       thread_safe (~> 0.1)
     uglifier (4.2.0)
       execjs (>= 0.3.0, < 3)
